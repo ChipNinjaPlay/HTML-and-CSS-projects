@@ -1,0 +1,29 @@
+/*Cascading Style Sheets - language of style and layout*/
+/*Visual Change of html elements*/
+/*animations, layout, properties*/
+ 
+* {
+
+}
+
+body {
+	background-image: linear-gradient(rgba(36,70,105,.74), rgba(36,70,105,.74)),
+	url("night-sky.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+p {
+	font-style:rambla;
+	font-size:1em;
+	color:white;
+}
+
+h1, h2, h3, h4 {
+	font-style:Spartan;
+}
+
+/*Basically a selector (html element) have properties which you can change with css*/
+
+/*Each html elements is represented by box with properties like padding, margin, borders*/
