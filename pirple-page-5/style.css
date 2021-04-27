@@ -1,0 +1,81 @@
+/*Cascading Style Sheets - language of style and layout*/
+/*Visual Change of html elements*/
+/*animations, layout, properties*/
+ 
+* {
+
+}
+
+body {
+	background-image: linear-gradient(rgba(36,70,105,.74), rgba(36,70,105,.74)),
+	url("night-sky.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding-left:1.5em;
+}
+
+h1#post_title {
+	text-align: center;
+}
+
+h1#post_title a {
+	color: rgb(210, 105, 30);
+	text-decoration: none;
+	font-size:1.8em;
+}
+
+p.contrasted_text {
+	font-style:rambla;
+	font-size:1em;
+	color:white;
+}
+
+h1, h2, h3, h4 {
+	font-style:Spartan;
+}
+
+section#ingredients_list > h2:first-child {
+
+}
+
+/*section#ingredients_list > ul {
+}*/
+
+section#directions_list > h2:first-child {
+
+}
+
+section#other_recipes_list > h2:first-child {
+
+}
+
+.fa-li:hover{
+	color:red;
+}
+
+/*apply to all spam elements inside p*/
+
+p > spam {
+	font-size:20;
+	color:#A9A9A9;
+	font-style:italic;
+}
+
+/*apply to the last spam child element of p*/
+p > spam:last-child {
+	font-size:18;
+	color:#00FFFF;
+	text-decoration:underline;
+}
+
+/*removing italic and adding red*/
+
+spam.highlighted_text {
+	font-style:normal;
+	color:red;
+}
+
+/*Basically a selector (html element) have properties which you can change with css*/
+
+/*Each html elements is represented by box with properties like padding, margin, borders*/
